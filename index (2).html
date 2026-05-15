@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Najiya Banu — Content Writer & Photo/Video Editor</title>
+<meta name="description" content="Cinematic, anime-inspired portfolio of Najiya Banu — content writer and photo/video editor turning emotions into visuals and stories." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Quicksand:wght@300;400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- Loader -->
+<div class="loader" id="loader">
+  <div class="loader-ring"></div>
+  <p class="loader-text">entering the dream...</p>
+</div>
+
+<!-- Custom Cursor -->
+<div class="cursor-dot" id="cursorDot"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+
+<!-- Floating Petals -->
+<div class="petals" id="petals"></div>
+
+<!-- Music Toggle -->
+<button class="music-toggle" id="musicToggle" aria-label="Toggle background music">
+  <span class="music-icon">♪</span>
+</button>
+<audio id="bgMusic" loop>
+  <source src="https://cdn.pixabay.com/download/audio/2022/03/15/audio_2c9d7a0e3a.mp3?filename=lofi-study-112191.mp3" type="audio/mpeg" />
+</audio>
+
+<!-- Navbar -->
+<nav class="navbar" id="navbar">
+  <a href="#home" class="logo">N<span>.</span>B</a>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#works">Works</a></li>
+    <li><a href="#writing">Writing</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <button class="hamburger" id="hamburger" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- HOME -->
+<section class="hero" id="home">
+  <div class="particles" id="particles"></div>
+  <div class="hero-overlay"></div>
+  <div class="hero-content reveal">
+    <p class="hero-tag">✦ welcome to my world ✦</p>
+    <h1 class="hero-title">Najiya <span>Banu</span></h1>
+    <p class="hero-typed"><span id="typed"></span><span class="cursor-blink">|</span></p>
+    <p class="hero-sub">"I turn emotions into visuals and stories."</p>
+    <div class="hero-buttons">
+      <a href="#projects" class="btn btn-primary">View Work</a>
+      <a href="#contact" class="btn btn-ghost">Say Hello</a>
+    </div>
+  </div>
+  <div class="scroll-indicator"><span></span></div>
+</section>
+
+<!-- ABOUT -->
+<section class="about" id="about">
+  <div class="container">
+    <h2 class="section-title reveal">About <span>Me</span></h2>
+    <div class="about-grid">
+      <div class="about-text reveal">
+        <p>Hi, I'm <strong>Najiya Banu</strong> — a content writer and photo/video editor with a quiet love for stories that feel like cinema. I craft visuals and words that breathe softly, like a paused frame in an anime film.</p>
+        <p>I believe every image has a poem hiding inside it, and every poem deserves a frame. My work lives in that delicate space between emotion and aesthetic.</p>
+      </div>
+      <div class="about-card reveal">
+        <h3>Skills</h3>
+        <div class="skill"><span>Adobe Premiere Pro</span><div class="bar"><i style="--w:90%"></i></div></div>
+        <div class="skill"><span>Canva</span><div class="bar"><i style="--w:95%"></i></div></div>
+        <div class="skill"><span>Snapseed</span><div class="bar"><i style="--w:88%"></i></div></div>
+        <div class="skill"><span>HTML</span><div class="bar"><i style="--w:85%"></i></div></div>
+        <div class="skill"><span>CSS</span><div class="bar"><i style="--w:80%"></i></div></div>
+        <div class="skill"><span>JavaScript</span><div class="bar"><i style="--w:70%"></i></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section class="projects" id="projects">
+  <div class="container">
+    <h2 class="section-title reveal">Featured <span>Project</span></h2>
+    <div class="project-card reveal">
+      <div class="project-image">
+        <img src="https://plain-apac-prod-public.komododecks.com/202605/15/EtHmKZ8kVNWHx7zQZgZe/image.jpg" alt="Todo CRUD App screenshot" loading="lazy" />
+      </div>
+      <div class="project-body">
+        <h3>Todo CRUD Application</h3>
+        <p>A responsive task management web application that performs CRUD (Create, Read, Update, Delete) operations. Users can add, edit, delete and manage daily tasks efficiently through a simple, user-friendly interface.</p>
+        <div class="features">
+          <h4>Features</h4>
+          <ul>
+            <li>Add tasks</li>
+            <li>Edit tasks</li>
+            <li>Delete tasks</li>
+            <li>Mark tasks as completed</li>
+          </ul>
+        </div>
+        <div class="tech">
+          <span>HTML</span><span>CSS</span><span>JavaScript</span><span>React</span><span>Lovable AI</span><span>GitHub</span>
+        </div>
+        <div class="project-buttons">
+          <a href="https://github.com/najiyaBanu/minimal-todo-app" target="_blank" rel="noopener" class="btn btn-primary">View GitHub</a>
+          <a href="https://soft-tasks-todo.lovable.app" target="_blank" rel="noopener" class="btn btn-ghost">Live Demo</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WORKS -->
+<section class="works" id="works">
+  <div class="container">
+    <h2 class="section-title reveal">My <span>Works</span></h2>
+
+    <h3 class="cat-title reveal">✦ Photo Editing</h3>
+    <div class="gallery">
+      <div class="g-item reveal" data-img="https://plain-apac-prod-public.komododecks.com/202605/12/5i2gmqcNfyDqfZLWRhmb/image.png" data-desc="A soft cinematic edit — colors graded with emotion.">
+        <img src="https://plain-apac-prod-public.komododecks.com/202605/12/5i2gmqcNfyDqfZLWRhmb/image.png" alt="Photo edit 1" loading="lazy" />
+        <div class="g-overlay"><p>Dreamy Tones</p></div>
+      </div>
+      <div class="g-item reveal" data-img="https://plain-apac-prod-public.komododecks.com/202605/12/LKehwxbDNi1FQ80o8Ep2/image.png" data-desc="Quiet light, warm shadows — a still moment captured.">
+        <img src="https://plain-apac-prod-public.komododecks.com/202605/12/LKehwxbDNi1FQ80o8Ep2/image.png" alt="Photo edit 2" loading="lazy" />
+        <div class="g-overlay"><p>Golden Hush</p></div>
+      </div>
+      <div class="g-item reveal" data-img="https://plain-apac-prod-public.komododecks.com/202605/12/CM5WMrV5Msok6ToVbjAd/image.png" data-desc="A nostalgic frame — like a memory you almost forgot.">
+        <img src="https://plain-apac-prod-public.komododecks.com/202605/12/CM5WMrV5Msok6ToVbjAd/image.png" alt="Photo edit 3" loading="lazy" />
+        <div class="g-overlay"><p>Soft Memory</p></div>
+      </div>
+    </div>
+
+    <h3 class="cat-title reveal">✦ Video Editing</h3>
+    <div class="video-wrap reveal">
+      <iframe
+        src="https://kommodo.ai/i/dUIbsLEFZ1n7xziV5ZRm"
+        title="Cinematic edit by Najiya Banu"
+        frameborder="0"
+        allow="autoplay; fullscreen; picture-in-picture"
+        allowfullscreen
+        loading="lazy"
+      ></iframe>
+      <p class="v-cap">A cinematic edit — paced like a heartbeat. <a href="https://kommodo.ai/i/dUIbsLEFZ1n7xziV5ZRm" target="_blank" rel="noopener">Open video ↗</a></p>
+    </div>
+
+    <h3 class="cat-title reveal">✦ Content Writing</h3>
+    <div class="writing-cards">
+      <article class="w-card reveal">
+        <h4>Hope in Cage</h4>
+        <p>A poem about silence, sea, and the weight of waiting.</p>
+        <a href="#writing" class="link-arrow">Read →</a>
+      </article>
+      <article class="w-card reveal">
+        <h4>A Piece of Solitude</h4>
+        <p>A quiet meditation on the path within.</p>
+        <a href="#writing" class="link-arrow">Read →</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- WRITING -->
+<section class="writing" id="writing">
+  <div class="container">
+    <h2 class="section-title reveal">Writing <span>Space</span></h2>
+    <div class="paper reveal">
+      <h3>Hope in Cage</h3>
+      <pre>The cage we call a city's bone,
+Each corner wired, each child alone.
+Eyes far away watch half in grief,
+Some sip their tea; some praise the thief.
+
+Bread turned weapon, hope turned bait,
+they carry silence, bearing its weight.
+Across the sea, small boats appear,
+With bags of bread and voices clear.
+
+They sail through dark to break the chain,
+To feed the pigeons lost in pain.
+But iron gates and guns awake,
+they steal the oars, the sails they break.
+
+hands that reach get bound in night,
+The pigeons wait beyond their sight.
+Old shadows whisper through the flame —
+Another holocaust, same old name.
+
+— N.B.</pre>
+    </div>
+
+    <div class="paper reveal">
+      <h3>A Piece of Solitude</h3>
+      <pre>The quiet center of my heart adores a thing
+which leads gently into solitude —
+a path from which my heart can never return.
+
+Where I am no longer myself,
+and my soul is no longer mine.
+
+— N.B.</pre>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+  <div class="container">
+    <h2 class="section-title reveal">Get in <span>Touch</span></h2>
+    <div class="contact-grid">
+      <form class="contact-form reveal" id="contactForm">
+        <label>Name<input type="text" required placeholder="Your name" /></label>
+        <label>Email<input type="email" required placeholder="you@example.com" /></label>
+        <label>Message<textarea rows="5" required placeholder="Say something soft..."></textarea></label>
+        <button type="submit" class="btn btn-primary send-btn"><span>Send</span> ✿</button>
+        <p class="form-msg" id="formMsg"></p>
+      </form>
+      <div class="contact-info reveal">
+        <a href="mailto:najiyabanu2575@gmail.com" class="info-card">
+          <span class="info-icon">✉</span>
+          <div><p>Email</p><strong>najiyabanu2575@gmail.com</strong></div>
+        </a>
+        <a href="https://github.com/najiyaBanu" target="_blank" rel="noopener" class="info-card">
+          <span class="info-icon">⌘</span>
+          <div><p>GitHub</p><strong>github.com/najiyaBanu</strong></div>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <p>© <span id="year"></span> Najiya Banu — woven with words & light.</p>
+</footer>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox">
+  <span class="lb-close" id="lbClose">×</span>
+  <img id="lbImg" alt="" />
+  <p id="lbDesc"></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
